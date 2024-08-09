@@ -1,0 +1,27 @@
+/* Write your CSS here */
+
+.match-card {
+  display: flex;
+  flex-direction: column;
+  height: 350px;
+  width: 240px;
+  border-radius: 10px;
+  background-color: #0f172a;
+  color: #ffffff;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  font-family: 'Bree Serif';
+  padding: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.match-card-image {
+  height: 100px;
+  margin-top: 20px;
+}
+.match-card-para {
+  text-align: center;
+}

@@ -1,0 +1,44 @@
+/* Write your CSS here */
+.latest-match-container {
+  display: flex;
+  align-items: center;
+  min-height: 300px;
+  min-width: 80%;
+  background-color: #0f172a;
+  border-radius: 5px;
+  padding: 20px;
+}
+.sub-card-latest-match {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  color: #ffffff;
+  font-family: 'Bree Serif';
+}
+.sub-card-2-latest-match {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  color: #ffffff;
+  font-family: 'Bree Serif';
+  margin-left: 30px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+.competing-team-heading {
+  font-size: 25px;
+}
+
+.competing-team-logo {
+  height: 150px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.conditional-paras {
+  font-size: 15px;
+  margin: 0;
+  text-align: end;
+}
+.un-conditional-paras {
+  text-align: end;
+}

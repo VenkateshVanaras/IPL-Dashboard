@@ -1,0 +1,36 @@
+/* Write your CSS here */
+.team-match-container {
+  background-image: linear-gradient(to bottom, #d91c1f, #0f172a);
+  min-height: 100vh;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.banner-image {
+  width: 90%;
+}
+
+@media screen and (max-width: 768px) {
+  .banner-image {
+    width: 260px;
+  }
+}
+.latest-matches-heading {
+  color: #ffffff;
+  font-size: 25px;
+  font-family: 'Bree Serif';
+  display: flex;
+  justify-content: flex-start;
+  min-width: 76%;
+}
+
+.match-card-unordered-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  padding-left: 10px;
+}
